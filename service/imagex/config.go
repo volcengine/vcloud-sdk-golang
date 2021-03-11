@@ -254,6 +254,14 @@ var (
 				"Version": []string{ApiVersion},
 			},
 		},
+		"GetImageThemeColor": {
+			Method: http.MethodGet,
+			Path:   "/",
+			Query: url.Values{
+				"Action":  []string{"GetImageThemeColor"},
+				"Version": []string{ApiVersion},
+			},
+		},
 	}
 )
 

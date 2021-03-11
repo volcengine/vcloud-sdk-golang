@@ -15,6 +15,11 @@ const (
 	FunctionEncryption = "Encryption"
 )
 
+// GetImageThemeColor
+type GetImageThemeColorResult struct {
+	Color string `json:"color"`
+}
+
 // GetAllImageServices
 type GetServicesResult struct {
 	Services []Service `json:"Services"`
